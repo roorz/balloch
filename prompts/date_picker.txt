@@ -1,0 +1,20 @@
+Create an elegant, delightful React date range selection component with the following features:
+
+1. The current month can be programatically set: for example January 2025.
+2. Two month view calendars are displayed side by side; the left is for the current month, the right is the next month. 
+3. Unavailable dates can be programatically set so that they can't be selected by the user. Each unavailable day should appear in grey text and striked out.
+4. The user can select any available start date and end date from either calendar. A valid date range can only include consecutive available days; the date range cannot include any unavailable dates.
+5. The user can use back "<" and forward ">" controls at the top of the calendars to select the previous/next month.
+6. When a valid date range is selected, each day within the date range should be clearly highlighted as within the range.
+
+The goal is to enable the user to very quickly select a date range from the available dates:
+- Create a thoughtful rubric structure
+- Add helpful prompts/placeholders
+- Build in intelligent validation
+
+Make sure to
+ - Call the element DateRangeComponent
+ - Start the code with "use client"
+ - Generate React Class Components; don't use useState, useEffect.
+ 
+Respond with the code only! Nothing else!
